@@ -1,6 +1,6 @@
 
 class Model_3d {
-    constructor(id, path, camera_z) {
+    constructor(id, path, camera_z, light) {
         
         let container;
         let camera;
@@ -19,10 +19,10 @@ class Model_3d {
         const near = 0.1;
         const far = 500;
         camera = new THREE.PerspectiveCamera(fov,aspect,near,far);
-        camera.position.set(40,0,0);
+        camera.position.set(camera_z,0,0);
     
         //Light
-        const ambient = new THREE.AmbientLight(0x202020, 20)
+        const ambient = new THREE.AmbientLight(light, 20)
         scene.add(ambient);
         // const light = new THREE.DirectionalLight(0xffffff, 20);
         // light.position.set(0,30,10);
@@ -71,10 +71,10 @@ var dresdnerMaenade;
 var aphrodite;
 
 function init(){
-    gilly = new Model_3d("#gilly", "./Gilly/scene.gltf", 10);
-    caracalla = new Model_3d("#caracalla", "./Caracalla/scene.gltf", 20);
-    dresdnerMaenade = new Model_3d("#dresdnerMaenade", "./DresdnerMaenade/scene.gltf", 50);
-    puesterich = new Model_3d("#puesterich", "./Puesterich/scene.gltf", 70);
+    gilly = new Model_3d("#gilly", "./Gilly/scene.gltf", 20, 0x151515);
+    caracalla = new Model_3d("#caracalla", "./Caracalla/scene.gltf", 20, 0x151515);
+    dresdnerMaenade = new Model_3d("#dresdnerMaenade", "./DresdnerMaenade/scene.gltf", 8, 0x151515);
+    puesterich = new Model_3d("#puesterich", "./Puesterich/scene.gltf", 7, 0x303030);
 
 }
 
