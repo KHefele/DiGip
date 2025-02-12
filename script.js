@@ -72,9 +72,9 @@ var aphrodite;
 
 function init(){
     gilly = new Model_3d("#gilly", "./Gilly/scene.gltf", 20, 0x151515);
-    caracalla = new Model_3d("#caracalla", "./Caracalla/scene.gltf", 20, 0x151515);
-    dresdnerMaenade = new Model_3d("#dresdnerMaenade", "./DresdnerMaenade/scene.gltf", 8, 0x151515);
-    puesterich = new Model_3d("#puesterich", "./Puesterich/scene.gltf", 7, 0x303030);
+    caracalla = new Model_3d("#caracalla", "./Caracalla_cleanup/scene.gltf", 20, 0x151515);
+    dresdnerMaenade = new Model_3d("#dresdnerMaenade", "./DresdnerMaenade_cleanup/scene.gltf", 8, 0x151515);
+    puesterich = new Model_3d("#puesterich", "./Puesterich_cleanup/scene.gltf", 7, 0x303030);
 
 }
 
