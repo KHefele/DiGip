@@ -1,4 +1,4 @@
-# 🏛️ DiGip – Digitale Gipsabgusssammlung (Digital plaster cast collection of archaeology at the Philipps University of Marburg) 
+# DiGip – Digitale Gipsabgusssammlung (Digital plaster cast collection of archaeology at the Philipps University of Marburg) 
 
 This website presents **3D models** of plaster casts from the archaeology collection at Philipps-Universität Marburg. The models were created as part of the course *"Visualizations in the Field of Cultural Heritage"*, aiming to make these currently inaccessible physical casts digitally available.  
 
